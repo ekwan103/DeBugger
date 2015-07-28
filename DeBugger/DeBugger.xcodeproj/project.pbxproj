@@ -13,6 +13,7 @@
 		58461A6D1B67FEB10006910A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58461A6C1B67FEB10006910A /* Images.xcassets */; };
 		58461A701B67FEB10006910A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58461A6E1B67FEB10006910A /* LaunchScreen.xib */; };
 		58461A7C1B67FEB10006910A /* DeBuggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58461A7B1B67FEB10006910A /* DeBuggerTests.swift */; };
+		58461A861B6808A90006910A /* bug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58461A851B6808A90006910A /* bug.swift */; };
 		C29F046D1B680277007871E8 /* bug.png in Resources */ = {isa = PBXBuildFile; fileRef = C29F046C1B680277007871E8 /* bug.png */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		58461A751B67FEB10006910A /* DeBuggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeBuggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58461A7A1B67FEB10006910A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58461A7B1B67FEB10006910A /* DeBuggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeBuggerTests.swift; sourceTree = "<group>"; };
+		58461A851B6808A90006910A /* bug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bug.swift; sourceTree = "<group>"; };
 		C29F046C1B680277007871E8 /* bug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 			children = (
 				58461A651B67FEB10006910A /* AppDelegate.swift */,
 				58461A671B67FEB10006910A /* ViewController.swift */,
+				58461A851B6808A90006910A /* bug.swift */,
 				58461A691B67FEB10006910A /* Main.storyboard */,
 				58461A6C1B67FEB10006910A /* Images.xcassets */,
 				58461A6E1B67FEB10006910A /* LaunchScreen.xib */,
@@ -218,6 +221,7 @@
 			files = (
 				58461A681B67FEB10006910A /* ViewController.swift in Sources */,
 				58461A661B67FEB10006910A /* AppDelegate.swift in Sources */,
+				58461A861B6808A90006910A /* bug.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
