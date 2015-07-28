@@ -9,5 +9,23 @@
 import Foundation
 
 class bug {
+    let velocity = 0.00
+    let degree = 0.00
+    typealias Point = (Double, Double)
+    let origin: Point = (0, 0)
     
+    func speed() -> Double {
+        let randSpeed = Double(arc4random_uniform(101))
+        let newSpeed = randSpeed/1000;
+        return newSpeed
+    }
+    
+    func direction() -> Double {
+        let dir = Double(arc4random_uniform(361))
+        return dir
+    }
+    
+    func position() -> Point {
+        return (0,0)
+    }
 }
