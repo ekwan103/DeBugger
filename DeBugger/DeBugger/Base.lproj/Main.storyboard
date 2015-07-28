@@ -23,7 +23,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Djr-jI-BYY" kind="push" id="F9N-9N-Gag"/>
+                                    <segue destination="Djr-jI-BYY" kind="modal" id="RZm-qh-TJl"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="DeBugger" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qW7-Rk-ZGs">
