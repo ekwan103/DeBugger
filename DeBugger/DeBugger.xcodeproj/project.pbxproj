@@ -13,6 +13,7 @@
 		58461A6D1B67FEB10006910A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58461A6C1B67FEB10006910A /* Images.xcassets */; };
 		58461A701B67FEB10006910A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58461A6E1B67FEB10006910A /* LaunchScreen.xib */; };
 		58461A7C1B67FEB10006910A /* DeBuggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58461A7B1B67FEB10006910A /* DeBuggerTests.swift */; };
+		C29F046D1B680277007871E8 /* bug.png in Resources */ = {isa = PBXBuildFile; fileRef = C29F046C1B680277007871E8 /* bug.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		58461A751B67FEB10006910A /* DeBuggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeBuggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58461A7A1B67FEB10006910A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58461A7B1B67FEB10006910A /* DeBuggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeBuggerTests.swift; sourceTree = "<group>"; };
+		C29F046C1B680277007871E8 /* bug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		58461A631B67FEB10006910A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C29F046C1B680277007871E8 /* bug.png */,
 				58461A641B67FEB10006910A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C29F046D1B680277007871E8 /* bug.png in Resources */,
 				58461A6B1B67FEB10006910A /* Main.storyboard in Resources */,
 				58461A701B67FEB10006910A /* LaunchScreen.xib in Resources */,
 				58461A6D1B67FEB10006910A /* Images.xcassets in Resources */,
@@ -405,6 +409,7 @@
 				58461A811B67FEB10006910A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58461A821B67FEB10006910A /* Build configuration list for PBXNativeTarget "DeBuggerTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				58461A841B67FEB10006910A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
