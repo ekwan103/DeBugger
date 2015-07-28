@@ -25,7 +25,7 @@ class bug {
         return dir
     }
     
-    func position() -> Point {
+    func position() -> Point {  // need to find way to get Position of bug
         return (0,0)
     }
 }

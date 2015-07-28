@@ -5,10 +5,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="DeBugger" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="HomeViewController" customModule="DeBugger" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Jip-kx-nxV"/>
                         <viewControllerLayoutGuide type="bottom" id="Q60-ce-YIQ"/>
@@ -22,6 +22,9 @@
                                 <state key="normal" title="Start">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Djr-jI-BYY" kind="push" id="F9N-9N-Gag"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="DeBugger" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qW7-Rk-ZGs">
                                 <rect key="frame" x="112" y="148" width="97" height="30"/>
@@ -46,6 +49,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="202.66666666666666" y="279.26666666666659"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="Khl-mQ-3bd">
+            <objects>
+                <viewController id="Djr-jI-BYY" customClass="GameViewController" customModule="DeBugger" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HDy-OI-xx1"/>
+                        <viewControllerLayoutGuide type="bottom" id="Knf-f2-yVg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2T2-hf-B6s">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KVp-9b-dph"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yTL-Bp-kFt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="599" y="279"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

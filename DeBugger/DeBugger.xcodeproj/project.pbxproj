@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		58461A661B67FEB10006910A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58461A651B67FEB10006910A /* AppDelegate.swift */; };
-		58461A681B67FEB10006910A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58461A671B67FEB10006910A /* ViewController.swift */; };
+		58461A681B67FEB10006910A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58461A671B67FEB10006910A /* HomeViewController.swift */; };
 		58461A6B1B67FEB10006910A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58461A691B67FEB10006910A /* Main.storyboard */; };
 		58461A6D1B67FEB10006910A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58461A6C1B67FEB10006910A /* Images.xcassets */; };
 		58461A701B67FEB10006910A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58461A6E1B67FEB10006910A /* LaunchScreen.xib */; };
 		58461A7C1B67FEB10006910A /* DeBuggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58461A7B1B67FEB10006910A /* DeBuggerTests.swift */; };
 		58461A861B6808A90006910A /* bug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58461A851B6808A90006910A /* bug.swift */; };
+		58461A881B6811380006910A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58461A871B6811380006910A /* GameViewController.swift */; };
 		C29F046D1B680277007871E8 /* bug.png in Resources */ = {isa = PBXBuildFile; fileRef = C29F046C1B680277007871E8 /* bug.png */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +32,7 @@
 		58461A601B67FEB10006910A /* DeBugger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeBugger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58461A641B67FEB10006910A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58461A651B67FEB10006910A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58461A671B67FEB10006910A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58461A671B67FEB10006910A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		58461A6A1B67FEB10006910A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58461A6C1B67FEB10006910A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		58461A6F1B67FEB10006910A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -39,6 +40,7 @@
 		58461A7A1B67FEB10006910A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58461A7B1B67FEB10006910A /* DeBuggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeBuggerTests.swift; sourceTree = "<group>"; };
 		58461A851B6808A90006910A /* bug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bug.swift; sourceTree = "<group>"; };
+		58461A871B6811380006910A /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		C29F046C1B680277007871E8 /* bug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,7 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				58461A651B67FEB10006910A /* AppDelegate.swift */,
-				58461A671B67FEB10006910A /* ViewController.swift */,
+				58461A671B67FEB10006910A /* HomeViewController.swift */,
+				58461A871B6811380006910A /* GameViewController.swift */,
 				58461A851B6808A90006910A /* bug.swift */,
 				58461A691B67FEB10006910A /* Main.storyboard */,
 				58461A6C1B67FEB10006910A /* Images.xcassets */,
@@ -219,7 +222,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58461A681B67FEB10006910A /* ViewController.swift in Sources */,
+				58461A881B6811380006910A /* GameViewController.swift in Sources */,
+				58461A681B67FEB10006910A /* HomeViewController.swift in Sources */,
 				58461A661B67FEB10006910A /* AppDelegate.swift in Sources */,
 				58461A861B6808A90006910A /* bug.swift in Sources */,
 			);
